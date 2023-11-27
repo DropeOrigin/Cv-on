@@ -1,0 +1,124 @@
+
+body{
+    display: flex 1160px;
+    justify-content: center;
+    margin-right: 25em;
+    margin-left: 25em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    border-right: solid;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@font-face {
+    font-family: 'Raleway', sans-serif;
+    src: url(../fonts/Raleway-VariableFont_wght.ttf) format("truetype");
+}
+h1{
+    font-family: 'Lato', sans-serif;  
+    text-align: center;
+    color: aliceblue;
+}
+
+.entete{
+    justify-content: center;
+    background-color: #782221;
+    text-align: center;
+    color: aliceblue;
+
+}
+
+address{
+    background-color: #2c1d27;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.principal{
+    justify-content: space-around;
+    margin-left: 220px;
+}
+
+.a{
+    color: aliceblue;
+}
+
+.information{
+    float: left;
+    background-color: #782221;
+    width: 200px;
+    height: 550px;
+}
+
+h2{
+    font-family: 'Lato', sans-serif;
+    background-color: #dbc2a4;
+}
+
+.principal h2:hover{
+    color: #782221;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+}
+
+li{
+    font-family: 'Raleway', sans-serif;
+}
+
+img#photo1{
+    border-radius: 100%;
+    box-shadow: 2px 2px 5px black;
+}
+
+img#photo1:hover{
+    cursor: zoom-in;
+
+}
+
+footer{
+    display: flexbox;
+    background-color: #782221;
+}
+
+img{
+    justify-content: flex-start;
+}
+
+time{
+    display: flex;
+    justify-content: center;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;   
+    
+}
+
+.icons:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.icon1{
+    display: flex;
+    justify-content: center;   
+    position: relative;
+}
+
+.icon2{
+    display: flex;
+    justify-content: center;   
+    position: relative;
+}
+
+.icon3{
+    display: flex;
+    justify-content: center;   
+    position: relative;
+}    
